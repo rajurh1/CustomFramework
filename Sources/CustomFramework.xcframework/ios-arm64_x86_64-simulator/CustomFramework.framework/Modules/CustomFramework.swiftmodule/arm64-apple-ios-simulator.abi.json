@@ -1,0 +1,65 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "Foundation",
+        "printedName": "Foundation",
+        "declKind": "Import",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CustomFramework",
+        "printedName": "CustomFramework",
+        "children": [
+          {
+            "kind": "Function",
+            "name": "initialize",
+            "printedName": "initialize()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:15CustomFrameworkAAC10initializeyyFZ",
+            "mangledName": "$s15CustomFrameworkAAC10initializeyyFZ",
+            "moduleName": "CustomFramework",
+            "static": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:15CustomFrameworkAAC",
+        "mangledName": "$s15CustomFrameworkAAC",
+        "moduleName": "CustomFramework",
+        "declAttributes": [
+          "AccessControl"
+        ],
+        "hasMissingDesignatedInitializers": true
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/raju1.hegganni\/Documents\/GitRepos\/Framweork\/CustomFramework\/CustomFrameworkTest.swift",
+      "kind": "StringLiteral",
+      "offset": 182,
+      "length": 28,
+      "value": "\"FrameworkTest | initialize\""
+    }
+  ]
+}
